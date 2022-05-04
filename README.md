@@ -25,17 +25,14 @@ The project was required to follow the following:
 5- Keep your code DRY by utilizing functions to abstract repetitive code.
 
 
-
-
-
-U S A G E
-=========
-
-
-
-R E Q U I R E M E N T S
+C O N T R I B U T I N G 
 =======================
+If you would like to contribute to this project, just fork it and use it.
 
+
+L I C E N S E
+=============
+This is an open source project that follows the MIT license
 
 
 C R E D I T S 
