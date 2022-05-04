@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>My Daily Journal</title>
+  </head>
+  <body>
+
+    <h1>Hello! Welcome to your daily journal!</h1>
+    
+    <div>
+        <h4>Today's Date: <span id="today"></span></h4>
+    </div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhGwu0S7PGjESJgtoAFpTlpt7nXm0vvthxw&usqp=CAU"/>
+
+    <!-- Daily Quote -->
+    <h3>Quote of the Day</h3>
+    <div>
+        <blockquote>
+            <q id="quote"> </q>
+            <p id="author">
+            </p>
+            <span id="like-quote" class='unliked'>Like &#x2661;</span>
+        </blockquote>
+    </div>
+    
+    <br/><br/><br/>
+
+    <div class='parent'>
+        <div class='child'>
+            <button id="new-entry-btn">Write a new entry in my Journal</button>
+             <!-- New Journal entry Form -->
+            <form id="new-entry" style="display: none;">
+                <h3>New Journal Entry Form</h3>
+                <label for="gratitude">What are you grateful for today?</label>
+                <textarea id='gratitude' name="gratitude" placeholder="Write all the things you are grateful for today" required></textarea>
+                </br>
+                <label for="journal">Journal</label>
+                <textarea id='journal' name="journal" placeholder="Write whatever is in your mind"></textarea>
+                </br>
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+
+        <div class='child'>
+            <button id="past-entry-btn">Look for a past entry in my Journal</button>
+            <!-- Past Journal Entry Search Form -->
+            <form id="past-entry" style="display: none;">
+                <h3>Look for a Past Journal Entry</h3>
+                <label for="date">Enter the date of the past entry you would like to see</label>
+                <input type="text" name="date" id="date" placeholder="MM/DD/YYYY"/>
+                </br>
+                <input type="submit" value="search" />
+            </form>
+            <div id="past-entry-content" style="display: none;">
+                <p id="past-content-date"></p>
+                <p id="past-content-gratitude"></p>
+                <p id="past-content-journal"></p>
+                <button id="close-btn">CLOSE</button>
+            </div>
+        </div>
+    </div>    
+
+    
+    
+  </body>
+</html>

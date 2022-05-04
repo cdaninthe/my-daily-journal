@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "04/10/1998",
+      "gratitude": "Today I am grateful for being alive",
+      "journal": "Today wasn't a good day"
+    },
+    {
+      "id": 2,
+      "date": "04/03/2021",
+      "gratitude": "Today I am grateful for being healthy",
+      "journal": "Today was a good day"
+    },
+    {
+      "date": "04/18/2022",
+      "gratitude": "my gratitude",
+      "journal": "my journal",
+      "id": 3
+    },
+    {
+      "date": "04/18/2022",
+      "gratitude": "my gratitude",
+      "journal": "journal entry",
+      "id": 4
+    },
+    {
+      "date": "04/18/2022",
+      "gratitude": "gratitude",
+      "journal": "journal journal",
+      "id": 5
+    },
+    {
+      "date": "04/21/2022",
+      "gratitude": "test gratitude",
+      "journal": "test journal",
+      "id": 6
+    },
+    {
+      "date": "04/29/2022",
+      "gratitude": "new entry",
+      "journal": "new entry",
+      "id": 7
+    },
+    {
+      "date": "05/04/2022",
+      "gratitude": "Today I am grateful for this presentation",
+      "journal": "Today was a great day, I was able to record my presentation",
+      "id": 8
+    }
+  ]
+}

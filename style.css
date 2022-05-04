@@ -1,0 +1,73 @@
+
+h1 {
+    width: 100%;
+    color: #E85846;
+}
+
+h3 {
+    width: 100%;
+    padding: 0.25rem;
+    margin: 0.5rem 0;
+    color: white;
+    background-color: #17707A;
+}
+
+q {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #F1C5BA;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    width: 75%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+    background: #FBA53E;
+}
+
+form {
+    margin: 1rem 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form textarea {
+    width: 300px;
+}
+
+form input {
+    width: 300px;
+}
+
+.liked {
+    cursor: pointer;
+    color: red;
+}
+.unliked {
+    cursor: pointer;
+    color: gray;
+}  
+
+.parent {
+    width: 100%; 
+    text-align: center;
+}
+  
+.child {
+    float: left; 
+    width: 50%; 
+}
